@@ -3,7 +3,7 @@
 toBeTaxed = int(input("Value of gift: "))
 
 if(toBeTaxed < 5_000):
-    print("No tax!");
+    print("No tax!")
 elif(toBeTaxed >= 5_000 and toBeTaxed < 25_000):
     print("Amount of tax: " + str(100 + (toBeTaxed - 5000) * 0.08))
 elif(toBeTaxed >= 25_000 and toBeTaxed < 55_000):
